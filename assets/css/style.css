@@ -475,6 +475,15 @@ section .container {
   transition: .9s;
   background-color: #1c7d32;
 }
+#skills .icon-box p {
+  display: flex;
+}
+
+#skills .icon-box p img {
+  max-width: 150px;
+  padding: 0 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Interests
