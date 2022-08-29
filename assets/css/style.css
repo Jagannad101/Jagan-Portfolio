@@ -1136,6 +1136,16 @@ section .container {
   padding: 20px;
 }
 
+.prjImgContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.prjImgContainer img {
+  width: 31%;
+}
+
 @media (max-width: 992px) {
   .credits {
     left: 50%;
