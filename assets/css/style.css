@@ -12,7 +12,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #000;
   position: relative;
-  background: transparent;
 }
 
 body::before {
@@ -56,6 +55,15 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
+}
+
+#header.header-tops {
+  background: transparent;
+  background-image: url('../img/background/js-background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top 30px right 0;
+  background-size: 350px auto;
 }
 
 #header * {
@@ -1173,5 +1181,6 @@ section .container {
 }
 
 .icon-box {
-  color:#fff
+  color:#fff;
+  cursor: pointer;
 }
