@@ -1194,3 +1194,11 @@ section .container {
 .portfolio-info p, .portfolio-info li {
   text-align: justify;
 }
+
+.filter-project.last-item {
+  left: auto!important;
+}
+
+.portfolio-container {
+  justify-content: center;
+}
