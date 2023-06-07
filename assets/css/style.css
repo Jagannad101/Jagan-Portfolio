@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-tops {
   background: transparent;
-  background-image: url('../img/background/js-background.png');
+  background-image: url('../img/background/js-background-silver.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top 30px right 0;
@@ -845,6 +845,7 @@ section .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -1182,4 +1183,22 @@ section .container {
 .icon-box {
   color:#fff;
   cursor: pointer;
+}
+
+/* .overlay-atag {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+} */
+
+.portfolio-info p, .portfolio-info li {
+  text-align: justify;
+}
+
+.filter-project.last-item {
+  left: auto!important;
+}
+
+.portfolio-container {
+  justify-content: center;
 }
