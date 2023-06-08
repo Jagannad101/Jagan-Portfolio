@@ -316,6 +316,9 @@ h1, h2, h3, h4, h5, h6 {
     background-position: top 50px center;
     background-size: 150px auto;
   }
+  .col-lg-12.edu-logo-wrap {
+    flex-direction: column;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1206,4 +1209,8 @@ section .container {
 
 .portfolio-container {
   justify-content: center;
+}
+
+#experience .icon-box li {
+  text-align: justify;
 }
