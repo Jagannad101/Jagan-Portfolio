@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #929292;
 }
 
 .mobile-nav {
@@ -311,6 +311,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header.header-top h1 {
     font-size: 26px;
+  }
+  #header.header-tops {
+    background-position: top 50px center;
+    background-size: 150px auto;
+  }
+  .col-lg-12.edu-logo-wrap {
+    flex-direction: column;
   }
 }
 
@@ -484,6 +491,7 @@ section .container {
 }
 #skills .icon-box p {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #skills .icon-box p img {
@@ -1201,4 +1209,8 @@ section .container {
 
 .portfolio-container {
   justify-content: center;
+}
+
+#experience .icon-box li {
+  text-align: justify;
 }
