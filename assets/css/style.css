@@ -1214,3 +1214,18 @@ section .container {
 #experience .icon-box li {
   text-align: justify;
 }
+
+.image-block {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 15px;
+}
+
+.image-block img {
+  border: 3px solid;
+  border-image: linear-gradient(45deg, red, yellow) 1;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
