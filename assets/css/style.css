@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top 30px right 0;
-  background-size: 350px auto;
+  background-size: 250px auto;
 }
 
 #header * {
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
+/*  font-weight: 700;*/
   font-family: "Poppins", sans-serif;
 }
 
@@ -735,7 +735,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #042e5f;
+  background: #6e6e73;
   border-color: #1c7d32;
 }
 
